@@ -23,15 +23,15 @@ As web development evolves, it's crucial to ensure your web applications work ac
 
 ### Promise.all Polyfill
 
-[Promise.all](promise-all.js) is a polyfill that provides support for the `Promise.all` method. It allows you to wait for all promises in an iterable (e.g., an array) to fulfill or any to reject. This is especially useful for scenarios where you need to perform multiple asynchronous operations concurrently and wait for all of them to complete.
+[Promise.all](promise.all.js) is a polyfill that provides support for the `Promise.all` method. It allows you to wait for all promises in an iterable (e.g., an array) to fulfill or any to reject. This is especially useful for scenarios where you need to perform multiple asynchronous operations concurrently and wait for all of them to complete.
 
 ### Promise.any Polyfill
 
-[Promise.any](promise-any.js) is a polyfill that provides support for the `Promise.any` method. It allows you to wait for the first promise in an iterable to fulfill. This is useful when you want to handle the result of the first successful promise and ignore the rest.
+[Promise.any](promise.any.js) is a polyfill that provides support for the `Promise.any` method. It allows you to wait for the first promise in an iterable to fulfill. This is useful when you want to handle the result of the first successful promise and ignore the rest.
 
 ### Promise.race Polyfill
 
-[Promise.race](promise-race.js) is a polyfill that provides support for the `Promise.race` method. It allows you to wait for the first promise in an iterable to settle (either fulfill or reject). This can be helpful in scenarios where you want to race multiple promises and handle the result of the first one to settle.
+[Promise.race](promise.race.js) is a polyfill that provides support for the `Promise.race` method. It allows you to wait for the first promise in an iterable to settle (either fulfill or reject). This can be helpful in scenarios where you want to race multiple promises and handle the result of the first one to settle.
 
 Please refer to each polyfill's individual documentation for installation and usage instructions.
 
